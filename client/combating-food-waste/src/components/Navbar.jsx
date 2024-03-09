@@ -1,7 +1,7 @@
 import React from 'react'
-import Register from './Register/Register'
+// import Register from './Register/Register'
 import { NavLink} from 'react-router-dom'
-import NavItem from './NavItem'
+import NavItem from './NavItem.jsx'
 
 function NavBar() {
   return (
@@ -11,7 +11,7 @@ function NavBar() {
             <NavItem to="/inventory">Inventory</NavItem>
             <NavItem to="/shoppingList">Shopping List</NavItem>
         </div>
-        <Register />
+        {/* <Register /> */}
     </nav>
   )
 }
