@@ -2,9 +2,9 @@ import {BrowserRouter as Router, Routes as ReactRoutes, Route} from 'react-route
 import InventoryPage from './InventoryPage/InventoryPage'
 import React from 'react'
 import RecipePage from './InventoryPage/Recipes/RecipePage/RecipePage'
-import LandingPage from './LandingPage/LandingPage'
+import LandingPage from './LandingPage'
 import ShoppingPage from './ShoppingPage/ShoppingPage'
-import NavBar from './NavBar/NavBar'
+import NavBar from './Navbar'
 
 function Routes() {
     return (<Router>
